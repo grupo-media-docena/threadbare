@@ -1,6 +1,7 @@
 [gd_resource type="SpriteFrames" format=3 uid="uid://2gqgiblrc1x0"]
 
 [ext_resource type="Texture2D" uid="uid://ca3jqmbnlc1yy" path="res://assets/first_party/templates/sequence_puzzle/NO_EDIT_object.png" id="1_gskdu"]
+[ext_resource type="Texture2D" uid="uid://dxoucadm5b2cv" path="res://art/pelota.png" id="2_yoeik"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_riqxt"]
 atlas = ExtResource("1_gskdu")
@@ -19,6 +20,9 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_riqxt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_yoeik")
 }],
 "loop": true,
 "name": &"default",
@@ -36,6 +40,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_rsmxy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_yoeik")
 }],
 "loop": true,
 "name": &"struck",
